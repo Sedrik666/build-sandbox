@@ -1,8 +1,8 @@
-class App {
-    run = (name = 'Word') => {
-        console.log(`Hello ${name}`);
-    }
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const app = new App();
-app.run();
+const App = () => <p>Hello</p>
+
+ReactDOM.render(<App />,
+    document.getElementById('root')
+);

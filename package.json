@@ -8,7 +8,11 @@
   },
   "author": "Sedrik666",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.6.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
     "@babel/core": "^7.8.0",
@@ -16,7 +20,8 @@
     "@babel/plugin-transform-block-scoping": "^7.8.0",
     "@babel/plugin-transform-classes": "^7.8.0",
     "@babel/plugin-transform-template-literals": "^7.8.0",
-    "@babel/preset-env": "^7.8.2"
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-react": "^7.8.0"
   },
   "repository": {
     "type": "git",
