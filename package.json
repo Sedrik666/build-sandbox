@@ -7,5 +7,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sedrik666",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-block-scoping": "^7.8.0",
+    "@babel/plugin-transform-classes": "^7.8.0",
+    "@babel/plugin-transform-template-literals": "^7.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sedrik666/build-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sedrik666/build-sandbox/issues"
+  },
+  "homepage": "https://github.com/Sedrik666/build-sandbox#readme"
 }
