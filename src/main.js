@@ -1,8 +1,10 @@
 class App {
-    run = (name = 'Word') => {
+    run = async (name = 'Word') => {
         console.log(`Hello ${name}`);
     }
 }
 
 const app = new App();
-app.run();
+app.run()
+    .then(() => console.log('done'))
+    .catch(() => console.log('Error'))
