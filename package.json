@@ -8,7 +8,9 @@
   },
   "author": "Sedrik666",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^3.6.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
     "@babel/core": "^7.8.0",
