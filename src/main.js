@@ -1,6 +1,5 @@
 class App {
-    run() {
-        const name = 'Word';
+    run = (name = 'Word') => {
         console.log(`Hello ${name}`);
     }
 }
