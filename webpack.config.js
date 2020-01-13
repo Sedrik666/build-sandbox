@@ -2,6 +2,13 @@ module.exports = {
   mode: "development",
   module: {
     rules: [
+
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      },
+
       //Loading Images
       {
         test: /\.(png|jpg|jpeg|gif|ico)$/,
@@ -15,6 +22,7 @@ module.exports = {
             }
           ]
       },
+
       //Loading Fonts
       {
         test: /\.(ttf|otf|eot|woff|woff2)$/,
@@ -27,7 +35,19 @@ module.exports = {
             }
           }
         ]
-      }
+      },
+
+      //Loading CSS
+      {
+        test: /\.css$/,
+        use:[ 'style-loader', 'css-loader' ]
+      },
+
+      //Loading SASS/SCSS
+      {
+        test: /\.(s[ca]ss)$/,
+        use:[ 'style-loader', 'css-loader', 'sass-loader']
+      },
     ]
   }
 };
