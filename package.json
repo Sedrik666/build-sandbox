@@ -4,9 +4,9 @@
   "description": "Sandbox to play with React build tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack --env.mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sedrik666",
   "license": "ISC",
