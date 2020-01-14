@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Build Sandbox</title>
+    <title><%= htmlWebpackPlugin.options.plugin %></title>
 </head>
 <body>
+    <div>
+        Build at:
+        <%= htmlWebpackPlugin.options.buildTime %>
+    </div>
     <div id="root"></div>
     <script src="main.js"></script>
 </body>
